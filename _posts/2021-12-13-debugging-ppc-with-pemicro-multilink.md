@@ -11,7 +11,7 @@ Experience in debugging a device with a MPC5xxx from NXP (PPC architecture).
 
 It had approximately the following debug connector:
 
-![mpc5566 connector](/assets/img/posts/mpc5566-connector.png)
+![Connector](/assets/img/posts/mpc5566-connector.png)
 
 And there was access to the PEmicro Multilink Universal. Software [S32DS](https://www.nxp.com/design/software/development-software/s32-design-studio-ide:S32-DESIGN-STUDIO-IDE) from NXP can work with it (to download it you can use creds from [BugMeNot](http://bugmenot.com/view/nxp.com)).
 
@@ -65,7 +65,7 @@ C:\PEMicro\com.pemicro.debug.gdbjtag.ppc_1.8.7.201906071634\win32\pegdbserver_po
 {:start="9"}
 9. After that, `gdbserver` should start:
 
-![mpc5566 gdbserver](/assets/img/posts/mpc5566-gdbserver.png)
+![gdbserver](/assets/img/posts/mpc5566-gdbserver.png)
 
 ## Connecting to gdbserver
 
@@ -76,4 +76,4 @@ You can connect from the host OS if everything is running in a VM with a network
 Use:
 
 * `gdb-multiarch` - some configuration required, but breakpoints work anyway
-* `gdb-powerpc-eabivle` (from Release page or anywhere else)
+* `gdb-powerpc-eabivle` (from [Release page](https://github.com/moehw/mpc5xxx-multilink-debug/releases) or anywhere else)

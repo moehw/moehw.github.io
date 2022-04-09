@@ -21,7 +21,7 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: '.: Moe Hardware :.'                          # the main title
+title: ".: moe's notes :."                          # the main title
 
 tagline: Interested in Hardware / Software RE and Security Research ≺3   # it will display as the sub-title
 
@@ -32,10 +32,10 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://moehw.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: moehw             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: moe_hw            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -121,7 +121,6 @@ paginate: 10
 
 kramdown:
   input: GFM
-  auto_ids: false
   syntax_highlighter: rouge
   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
